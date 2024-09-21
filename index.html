@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instashop</title>
+    <!--favicon -->
+    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon">
+    <!--bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--boostrap icon cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--AOS cdn-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--external css-->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span style="color:orange;" class="fw-bold">Insta</span>shop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./shop.html">shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">contact</a>
+            </li>
+          </ul>
+           
+         <!----icons insert link-->
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./cart.html"><i class="bi bi-bag-dash fs-3"></i></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><i class="bi bi-person-badge fs-3"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--navbar end -->
+   
+  
+
+    <!--slider section start-->
+
+    <div class="container-fluid mx-5">
+      <!--slider start-->
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators ">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Asserts3/banner-2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item"> 
+            <img src="./Asserts3/shoes4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Asserts3/banner3.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Asserts3/footwear.jpg" class="d-block w-100" alt="...">
+          </div>
+         
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    
+    </div>
+    <!--slider section end-->
+
+
+    <!--top barands start-->
+    <div class="container p-3 mx-auto my-3 shadow border border-warning">
+      <div class="row">
+        <div class="col-4 col-sm-4 col-md-2 col-lg-2 text-center" data-aos="zoom-in-up">
+          <img src="./Asserts3/b1jpeg.png" alt="" width="150px" height="200px" class="img-fluid rounded">
+          <p>BearHouse</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 col-lg-2 text-center" data-aos="zoom-in-up">
+          <img src="./Asserts3/b2jpeg.png" alt=""  width="150px" height="200px" class="img-fluid rounded">
+          <p>SAMSUNG</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 col-lg-2 text-center" data-aos="zoom-in-up">
+          <img src="./Asserts3/b4.jpeg" alt=""  width="150px" height="200px" class="img-fluid rounded">
+          <p>APPLE</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 col-lg-2 text-center" data-aos="zoom-in-up">
+          <img src="./Asserts3/b5.png" alt=""  width="150px" height="200px" class="img-fluid rounded">
+          <p>HP</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 col-lg-2 text-center" data-aos="zoom-in-up">
+          <img src="./Asserts3/b3.jpg" alt=""  width="150px" height="200px" class="img-fluid rounded">
+          <p>UBL</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-2 col-lg-2 text-center" data-aos="zoom-in-up">
+          <img src="./Asserts3/b7.jpg" alt=""  width="150px" height="200px" class="img-fluid rounded">
+          <p>Realme</p>
+        </div>
+
+      </div>
+    </div>
+    <!--top barands end-->
+   
+
+    <!--Happy clients review section start -->
+    <!--header section start-->
+
+    <div class="container my-3 text-center">
+      <h3 class="display-5">Happy Clients</h3>
+      <p>Hear what they say about us</p>
+
+    </div>
+
+    <!--header section start-->
+    <!--client review section start-->
+    <div class="container img-fluid my-3 border border-danger">
+      <div class="row">
+        <!--column start-->
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 review">
+          <!--card start-->
+          <div class="card">
+            <img src="./Asserts3/card1.jpg" class="card-img-top" alt="..." width="150px" height="200px">
+            <div class="card-body">
+              <h5 class="card-title text-center">Shivani Sharma</h5>
+              <p class="card-text">A Product CEO Company oversees the development of products from start to finish to ensure they meet the clients’ Their main duties include determining the overall vision of products, deciding which features each product will have according to clients’ preferences and managing the entire development process.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+            <!---cards end-->
+        </div>
+        <!---column end-->
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 review">
+          <div class="card">
+            <img src="./Asserts3/card2.jpg" class="card-img-top" alt="..." width="150px" height="200px">
+            <div class="card-body">
+              <h5 class="card-title text-center">Diya Noble</h5>
+              <p class="card-text">A Product Co-Founder, oversees the development of products from start to finish to ensure they meet the clients’ needs and preferences. Their main duties include determining the overall vision of products, deciding which features each product will have according to clients’ preferences and managing the entire development process.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 review">
+          <div class="card">
+            <img src="./Asserts3/card3.jpg" class="card-img-top" alt="..." width="150px" height="200px">
+            <div class="card-body">
+              <h5 class="card-title text-center">Shreya Sangale</h5>
+              <p class="card-text">A Product Owner, or Product Director, oversees the development of products from start to finish to ensure they meet the clients’ Their main duties include determining the overall vision of products, deciding which features each product will have according to clients’ preferences and managing the entire development process.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--client review section end-->
+    <!--Happy clients review section end -->
+
+
+
+    <!---index categories cards start-->
+
+    <div class="container my-4 p-3 border border-dark">
+      <div class="row gy-3">
+        <h1 class="text-center text-success">Categories</h1>
+        
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card-card1 rounded text-center shadow">
+               <img src="./Asserts3/m1.webp" alt="" width="300px" height="500px">
+                  <div class="card-body">
+                    <p>Men's Clothing</p>
+                    <button class="button">Buy Now</button>
+                    <button class="button">$5</button>
+                  </div>
+                </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card-card1 text-center shadow">
+                  <img src="./Asserts3/m2.webp" alt="" width="300px" height="500px">
+                  <div class="card-body">
+                   <p>Women's Clothing</p>
+                   <button class="button">Buy Now</button>
+                    <button class="button">$3</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card-card1 text-center shadow">
+                <img src="./Asserts3/m3.jpg" alt="" width="300px" height="500px">
+                  <div class="card-body">
+                 <p>Kid's Clothing</p>
+                 <button class="button">Buy Now</button>
+                    <button class="button">$7</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card-card1 text-center shadow">
+                <img src="./Asserts3/m4.webp" alt="" width="300px" height="500px">
+                  <div class="card-body">
+                 <p>Couple's Clothing</p>
+                 <button class="button">Buy Now</button>
+                    <button class="button">$4</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+  </div>
+</div>
+
+    <!---index categories cards end-->
+
+
+
+
+    
+    <!---index Trending products start-->
+
+    <div class="container my-4 p-3">
+      <div class="row gy-3">
+        <h1 class="text-center text-success">Trending Products</h1>
+        
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card-card2 rounded text-center shadow">
+               <img src="./Asserts3/t1.webp" alt="" width="300px" height="500px">
+                  <div class="card-body">
+                    <p>Short model dress</p>
+                    <button class="button">Buy Now</button>
+                    <button class="button">$20</button>
+                  </div>
+                </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card-card2 text-center shadow">
+                  <img src="./Asserts3/t2.jpg" alt="" width="300px" height="500px">
+                  <div class="card-body">
+                   <p>Pattu Saree</p>
+                   <button class="button">Buy Now</button>
+                    <button class="button">$56</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card-card2 text-center shadow">
+                <img src="./Asserts3/t3.jpg" alt="" width="300px" height="500px">
+                  <div class="card-body">
+                 <p>Hoodie</p>
+                 <button class="button">Buy Now</button>
+                    <button class="button">$58</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card-card2 text-center shadow">
+                <img src="./Asserts3/t4.webp" alt="" width="300px" height="500px">
+                  <div class="card-body">
+                 <p>Ethnic Wear</p>
+                 <button class="button">Buy Now</button>
+                    <button class="button">$55</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+  </div>
+</div>
+
+    <!---index Trending products end-->
+
+
+
+       <!---index just arrived start-->
+
+       <div class="container my-4 p-3">
+        <div class="row gy-3">
+          <h1 class="text-center text-success">Just Arrived</h1>
+          
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+                <div class="card-card1 rounded text-center shadow">
+                 <img src="./Asserts3/A1.jpg" alt="" width="300px" height="500px">
+                    <div class="card-body">
+                      <p>Men's Clothing</p>
+                      <button class="button">Buy Now</button>
+                    <button class="button">$15</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+                <div class="card-card1 text-center shadow">
+                    <img src="./Asserts3/A2.webp" alt="" width="300px" height="500px">
+                    <div class="card-body">
+                     <p>Women's Clothing</p>
+                     <button class="button">Buy Now</button>
+                    <button class="button">$30</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+                <div class="card-card1 text-center shadow">
+                  <img src="./Asserts3/A3.webp" alt="" width="300px" height="500px">
+                    <div class="card-body">
+                   <p>Kid's Clothing</p>
+                   <button class="button">Buy Now</button>
+                    <button class="button">$10</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+                <div class="card-card1 text-center shadow">
+                  <img src="./Asserts3/A4.webp" alt="" width="300px" height="500px">
+                    <div class="card-body">
+                   <p>Couple's Clothing</p>
+                   <button class="button">Buy Now</button>
+                    <button class="button">$13</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+  
+    </div>
+  </div>
+  
+      <!---index just arrived end-->
+  
+  
+
+
+
+
+    <!---subscribe to news letter sections start-->
+    <div class="container text-center my-3 bg-dark text-white py-3 rounded">
+      <h2 style="color: coral;">Stay Updated</h2>
+      <p>To get update about our new products subscribe to our site.</p>
+      <div class="input-group mb-3 w-50 mx-auto">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <span class="input-group-text bg-warning" id="basic-addon2">subscribe</span>
+      </div>
+    </div>
+
+     <!---subscribe to news letter sections end-->
+
+
+
+
+
+
+     <!---Customer services support start-->
+
+     <div class="container my-4">
+      <div class="row gy-3">
+        <h1 class="text-center fw-bold text-success">customers services support</h1>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card rounded text-center shadow"> 
+                  <div class="card-body">
+                    <p><i class="bi bi-check2-all fs-3"  style="color: coral;"></i>&nbsp;&nbsp;&nbsp;Quality Product</p>
+                  </div>
+                </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card text-center shadow">
+                  <div class="card-body">
+                    <p><i class="bi bi-truck fs-3" style="color: coral;"></i>&nbsp;&nbsp;&nbsp;Free Shipping</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card text-center shadow">
+                  <div class="card-body">
+                    <p><i class="bi bi-arrow-left-right fs-3" style="color: coral;"></i>&nbsp;&nbsp;&nbsp;14-Day Return</p>
+                
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3"> 
+              <div class="card text-center shadow">
+                  <div class="card-body">
+                    <p><i class="bi bi-telephone-inbound fs-3" style="color: coral;"></i>&nbsp;&nbsp;&nbsp;24/7 Support</p>
+                  
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+  </div>
+</div>
+
+     
+     <!---Customer services support end-->
+     
+     
+
+
+
+
+    <!---footer start -->
+    <footer class="footer container-fluid mt-3 bg-dark text-white py-3">
+      <div class="container d-sm-none d-none d-md-block d-lg-block">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+          <h5>Get to know Us</h5>
+          <p><a href="" class="nav-link">About Us</a></p>
+          <p><a href="" class="nav-link">Careers</a></p>
+          <p><a href="" class="nav-link">Press Releases</a></p>
+          <p><a href="" class="nav-link">Instashop Science</a></p>
+          <p><a href="" class="nav-link">services</a></p>
+          <p><a href="" class="nav-link">privacy policy</a></p>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+          <h5>Connect with Us</h5>
+          <p><a href="" class="nav-link">Facebook</a></p>
+          <p><a href="" class="nav-link">Twitter</a></p>
+          <p><a href="" class="nav-link">Instagram</a></p>
+          <p><a href="" class="nav-link">Telegram</a></p>
+      
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+          <h5>Make Money with Us</h5>
+          <p><a href="" class="nav-link">Sell on Instashop</a></p>
+          <p><a href="" class="nav-link">Sell under Instashop Accelerator</a></p>
+          <p><a href="" class="nav-link">Protect and Build Your Brand</a></p>
+          <p><a href="" class="nav-link">Instashop Global Selling</a></p>
+          <p><a href="" class="nav-link">Become an Affiliate</a></p>
+          <p><a href="" class="nav-link">Fulfilment by Instashop</a></p>
+          <p><a href="" class="nav-link">Advertise Your Products</a></p>
+          <p><a href="" class="nav-link">Instashop Pay on Merchants</a></p>
+       
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+         <h5>Let Us Help You</h5>
+         <p><a href="" class="nav-link">COVID-19 and Instashop</a></p>
+         <p><a href="" class="nav-link">Your Account</a></p>
+         <p><a href="" class="nav-link">Returns Centre</a></p>
+         <p><a href="" class="nav-link">Recalls and Product Safety Alerts</a></p>
+         <p><a href="" class="nav-link">100% Purchase Protection</a></p>
+         <p><a href="" class="nav-link">Instashop App Download</a></p>
+         <p><a href="" class="nav-link">Help</a></p>
+        </div>
+      </div>
+    </div>
+    
+    <hr class="d-sm-none d-none d-md-block d-lg-block">
+    <!--copyrights start -->
+    <div class="copyrights text-center">
+      <p>&copy;1996-2024, Instashop.com, Inc. or its affiliates</p>
+    </div>
+    <!--copyrights end -->
+
+</footer>
+
+<!---footer end -->
+
+
+    <!--model box for register and login -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">SignIn</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!--sigin form  start-->
+            <form action="">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Email/Mobileno</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter email or mobile no">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Password</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter ur Password">
+            </div>
+          </form>
+            <!--sigin form  end -->
+          </div>
+
+          <div class="modal-footer">
+
+            <!--button for register and submit-->
+            <button class="btn btn-primary" data-bs-dismiss="modal" type="submit">Submit</button>
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---model box-1 end-->
+
+
+    <!--model box-2 start -->
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!---modelbox-title: register -->
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Register</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <!--register form start -->
+          <div class="modal-body">
+            <form action="">
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Email/Mobileno</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter email or mobile no">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Password</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter ur Password">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Retype-password</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="retype-password">
+              </div>
+            </form>
+          </div>
+          <!--register for end -->
+
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">register</button>
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">SignIn</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+  <!--AOS scripts-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!--scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
